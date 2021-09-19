@@ -11,6 +11,7 @@ public class Main {
         number = scanner.nextInt();
         System.out.println("You enter " + number + ".\n");
 
+        // Will create a range from 1 to number
         for(int i = 1; i <= number; i++){
             if(i % 5 == 0 && i % 3 == 0){
                 System.out.println("FizzBuzz");
